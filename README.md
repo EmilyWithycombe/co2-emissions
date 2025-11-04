@@ -1,17 +1,31 @@
-# Project XYZ
+# Global CO2 Emissions Analysis
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
-
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
+**Global CO2 Emissions Analysis** is a comprehensive data analysis tool designed to enable exploration of global CO2 emissions data, and provide analysis and visualisations to understand global emission trends. The tool provides an intuitive interface for both novice and expert data scientists.
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
-
+This project uses the [CO2 Emissions Dataset](https://www.kaggle.com/datasets/shreyanshdangi/co-emissions-across-countries-regions-and-sectors/data) from Kaggle, the dataset size is 13.1MB.<br>
+The original data set has ~43k rows, but this analysis is conducted on <10k rows by focusing on country-level data and records from 1975 onwards.<br>
+Analysis is performed on the following columns (carbon dioxide will be referred to as CO2):
+| Purpose | Column name | Description |
+| --- | --- | --- |
+| Identifiers and Metadata | Name, iso_code, year | List of country names, ISO 3166-1 alpha-3 standard country code, observation year |
+| Demographics and Economy | population, gdp, primary_energy_consumption | Country-wise population data and estimates, inflation-adjusted and cost-of-living–adjusted economic output across countries, energy use in terawatt-hours (TWh) |
+| Total Emissions | co2, co2_including_luc, consumption_co2, total_ghg | CO2 emissions excluding land-use changes, including land-use changes and based on national consumption in million tonnes, total green house gas emissions |
+| Emission Growth Metrics | co2_growth_abs, co2_growth_prct | Yearly total and percentage increase in CO2 emissions, excluding land-use changes |
+| Per Capita & Efficiency Metrics | co2_per_capita, co2_per_gdp, consumption_co2_per_capita, consumption_co2_per_gdp, energy_per_capita, energy_per_gdp | CO2 emissions, consumption-based emissions and primary energy usage, per person (capita) and relative to economic output (gdp) |
+| Sectoral Emissions | cement_co2, coal_co2, flaring_co2, gas_co2, land_use_change_co2, oil_co2, trade_co2 | CO2 emissions from cement, coal, gas flaring, gas, land-use changes, oil and trade. Reported in million tonnes |
+| Global Share Indicators | share_global_cement_co2, share_global_co2, share_global_co2_including_luc, share_global_coal_co2, share_global_flaring_co2, share_global_gas_co2, share_global_luc_co2, share_global_oil_co2, trade_co2_share | Proportion of worldwide CO2 emissions by sector, expressed as a percentage |
+| Cumulative Measures | cumulative_co2, cumulative_co2_including_luc, share_global_cumulative_co2 | Total accumulated CO2 emissions excluding and including land-use changes from earliest available year, expressed in million tonnes and percentage of global cumulative emissions excluding land-use changes since first year of recorded data |
+| Temperature Change Attribution | share_of_temperature_change_from_ghg, temperature_change_from_co2, temperature_change_from_ghg | Proportion of global temperature rise attributed to green house gases as a percentage, increase in average global temperature due to CO2 and all green house gases measued in °C |
 
 ## Business Requirements
-* Describe your business requirements
-
+* Describe your business requirements<br>
+* Track emission trends over time by country or region
+* Forecast future emissions using regression or machine learning models
+* Compare per capita emissions, GDP-emissions ratios, and energy use across nations
+* Examine the role of trade and land-use change in emissions
+* Use temperature change estimates to assess climate responsibility
+* Visualize contributions to global climate change over time*
 
 ## Hypothesis and how to validate?
 * List here your project hypothesis(es) and how you envision validating it (them) 
