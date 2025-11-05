@@ -14,3 +14,5 @@ yellowbrick==1.5 # can be removed from requirements before deployment
 Pillow==10.0.1 # can be removed from requirements before deployment
 ipykernel==7.1.0
 setuptools==80.9.0
+ipywidgets==8.1.8
+ipython==7.23.1

@@ -69,6 +69,7 @@ Deliver intuitive visualizations that illustrate historical and projected contri
 ## Conclusions
 
 ## Unfixed Bugs
+* A bug was identified when trying to run the Y Data Profile Report, this has hopefully been fixed by changing the version of ipython but if users encouter the following error `ImportError: cannot import name 'display' from 'IPython.core.display'` this can be fix by installing ipython v7.23.1 by running the following command `pip install ipython==7.23.1` and restarting the notebook.
 * Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
 * Did you recognise gaps in your knowledge, and how did you address them?
 * If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
