@@ -12,6 +12,7 @@ Microsoft Copilot was used to help with the following during the ideation phase 
 Microsoft Copilot was used to help with the following sections of the README:
 * Suggest groupings for columns in dataset content table
 * Draft business requirements based on persona
+* Suggest hypotheses that could be tested using the dataset
 
 ## Notebooks
 Where AI was used to improve or fix code this information is included in the notebook, directly above the relevant code cell.
