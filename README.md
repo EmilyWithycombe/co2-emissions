@@ -1,6 +1,6 @@
 # Global CO2 Emissions Analysis
 
-**Global CO2 Emissions Analysis** is a comprehensive data analysis tool designed to enable exploration of global CO2 emissions data, and provide analysis and visualisations to understand global emission trends. The tool provides an intuitive interface for both novice and expert data scientists.
+**Global CO2 Emissions Analysis** is a comprehensive data analysis tool developed for the Global Climate Action Consortium (a fictional organisation) to enable them to develop climate policies that are effective, equitable and globally coordinated. The Global Climate Action Consortium (GCAC) aims to monitor and evaluate national and regional progress toward emission reduction targets and empower member states with actionable insights for international negotiations and funding allocation. This tool should be useful to Data Scientists interested in climate analytics while the Dashboard will provide access to key insights for users from a non-technical background.
 
 ## Dataset Content
 This project uses the [CO2 Emissions Dataset](https://www.kaggle.com/datasets/shreyanshdangi/co-emissions-across-countries-regions-and-sectors/data) from Kaggle, the dataset size is 13.1MB.<br>
@@ -19,13 +19,25 @@ Analysis is performed on the following columns (carbon dioxide will be referred 
 | Temperature Change Attribution | share_of_temperature_change_from_ghg, temperature_change_from_co2, temperature_change_from_ghg | Proportion of global temperature rise attributed to green house gases as a percentage, increase in average global temperature due to CO2 and all green house gases measued in °C |
 
 ## Business Requirements
-* Describe your business requirements<br>
-* Track emission trends over time by country or region
-* Forecast future emissions using regression or machine learning models
-* Compare per capita emissions, GDP-emissions ratios, and energy use across nations
-* Examine the role of trade and land-use change in emissions
-* Use temperature change estimates to assess climate responsibility
-* Visualize contributions to global climate change over time*
+As part of GCAC’s mission to drive equitable and data-informed climate policy, the following analytics capabilities are required to support strategic decision-making, international negotiations, and public engagement:
+
+1. 📈 Emission Trend Monitoring<br>
+Enable tracking of greenhouse gas emissions over time by country to evaluate progress toward climate goals and identify emerging risks.
+
+2. 🔮 Emission Forecasting<br>
+Support predictive modelling using regression and machine learning to simulate future emissions under various policy and economic scenarios.
+
+3. 🌐 Cross-National Comparisons<br>
+Provide comparative metrics such as per capita emissions, GDP-emissions ratios, and energy intensity to assess national performance and climate equity.
+
+4. 🔄 Trade and Land-Use Impact Analysis<br>
+Analyze the role of international trade and land-use changes in shifting emissions across borders, highlighting indirect contributions and policy blind spots.
+
+5. 🌡️ Climate Responsibility Attribution<br>
+Use temperature change estimates to quantify national contributions to global warming, supporting climate justice and accountability frameworks.
+
+6. 🗺️ Global Climate Change Visualization<br>
+Deliver intuitive visualizations that illustrate historical and projected contributions to climate change, enabling storytelling for policy, education, and advocacy.
 
 ## Hypothesis and how to validate?
 * List here your project hypothesis(es) and how you envision validating it (them) 
