@@ -40,12 +40,11 @@ Use temperature change estimates to quantify national contributions to global wa
 Deliver intuitive visualizations that illustrate historical and projected contributions to climate change, enabling storytelling for policy, education, and advocacy.
 
 ## Hypothesis [and how to validate]?
-* H1: Rapid GDP growth is positively correlated with increases in total GHG emissions in developing nations.
-* H2: Energy consumption is positively correlated with both CO₂ and total GHG emissions across all countries.
-* H3: Global average CO₂ emissions per capita have declined over the past decade due to increased adoption of renewable energy.
+* H1: Global average CO₂ emissions per capita have declined over the past decade, validated through linear regression test.
+* H2: Energy consumption is positively correlated with both CO₂ and total GHG emissions across all countries, validated through correlation test.
+* H3: Rapid GDP growth is positively correlated with increases in total GHG emissions in developing nations.
 * H4: Per capita CO₂ emissions are significantly higher in countries with smaller populations and high GDP.
 * H5: Population growth is a stronger predictor of total GHG emissions than GDP growth in low-income countries.
-* H6: Historical emissions from the top five industrialized nations contribute disproportionately to observed temperature rise.
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
