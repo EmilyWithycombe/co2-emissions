@@ -41,7 +41,7 @@ Deliver intuitive visualizations that illustrate historical and projected contri
 ## Hypothesis [and how to validate]?
 * H1: Global average CO₂ emissions per capita have declined over the past decade, validated through linear regression test.
 * H2: Energy consumption is positively correlated with both CO₂ and total GHG emissions across all countries, validated through correlation test.
-* H3: Rapid GDP growth is positively correlated with increases in total GHG emissions in developing nations.
+* H3: Relationships between CO2 emissions, population and GPD explored through visualisations
 * H4: Per capita CO₂ emissions are significantly higher in countries with smaller populations and high GDP.
 * H5: Population growth is a stronger predictor of total GHG emissions than GDP growth in low-income countries.
 
