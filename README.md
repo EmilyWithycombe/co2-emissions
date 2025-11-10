@@ -10,12 +10,10 @@ Analysis is performed on the following columns (carbon dioxide will be referred 
 | --- | --- | --- |
 | Identifiers and Metadata | Name, iso_code, year | List of country names, ISO 3166-1 alpha-3 standard country code, observation year |
 | Demographics and Economy | population, gdp, primary_energy_consumption | Country-wise population data and estimates, inflation-adjusted and cost-of-living–adjusted economic output across countries, energy use in terawatt-hours (TWh) |
-| Total Emissions | co2, co2_including_luc, total_ghg | CO2 emissions including and excluding land-use changes in million tonnes, total green house gas emissions |
-| Emission Growth Metrics | co2_growth_abs, co2_growth_prct | Yearly total and percentage increase in CO2 emissions, excluding land-use changes |
+| Total Emissions | co2, total_ghg | CO2 emissions land-use changes in million tonnes, total green house gas emissions |
 | Per Capita & Efficiency Metrics | co2_per_capita, co2_per_gdp, energy_per_capita, energy_per_gdp | CO2 emissions and primary energy usage, per person (capita) and relative to economic output (gdp) |
-| Sectoral Emissions | cement_co2, coal_co2, flaring_co2, gas_co2, land_use_change_co2, oil_co2 | CO2 emissions from cement, coal, gas flaring, gas, land-use changes and oil. Reported in million tonnes |
-| Global Share Indicators | share_global_co2, share_global_co2_including_luc | Proportion of worldwide CO2 emissions expressed as a percentage |
-| Cumulative Measures | cumulative_co2, cumulative_co2_including_luc, share_global_cumulative_co2 | Total accumulated CO2 emissions excluding and including land-use changes from earliest available year, expressed in million tonnes and percentage of global cumulative emissions excluding land-use changes since first year of recorded data |
+| Sectoral Emissions | coal_co2, flaring_co2, gas_co2, oil_co2 | CO2 emissions from coal, gas flaring, gas and oil. Reported in million tonnes |
+| Cumulative Measures | cumulative_co2 | Total accumulated CO2 emissions excluding land-use changes from earliest available year, expressed in million tonnes |
 
 ## Business Requirements
 As part of GCAC’s mission to drive equitable and data-informed climate policy, the following analytics capabilities are required to support strategic decision-making, international negotiations, and public engagement:
