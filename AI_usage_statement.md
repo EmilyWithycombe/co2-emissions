@@ -16,3 +16,6 @@ Microsoft Copilot was used to help with the following sections of the README:
 
 ## Notebooks
 Where AI was used to improve or fix code this information is included in the notebook, directly above the relevant code cell.
+
+## Dashboard
+Copilot was used to create a summary of key insights from the dashboard.
